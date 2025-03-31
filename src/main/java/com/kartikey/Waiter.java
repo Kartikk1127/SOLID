@@ -1,17 +1,11 @@
-public class Waiter implements RestaurantEmployee{
-    @Override
-    public void washDishes() {
-        //not my job then why should i implement this method?
-    }
-
+public class Waiter implements WaiterInterface{
     @Override
     public void serveCustomers() {
-        //that's my job and here is my implementation
-        System.out.println("Serving customers");
+        //serving orders
     }
 
     @Override
-    public void cookFood() {
-        //not my job then why should i implement this method?
+    public void takeOrder() {
+        //taking orders
     }
 }
