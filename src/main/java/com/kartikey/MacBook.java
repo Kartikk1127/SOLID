@@ -1,8 +1,8 @@
 public class MacBook {
 
-    private WiredKeyboard keyboard;
+    private final Keyboard keyboard;
 
-    public MacBook() {
-        keyboard = new WiredKeyboard();
+    public MacBook(Keyboard keyboard) {
+        this.keyboard = keyboard;
     }
 }
